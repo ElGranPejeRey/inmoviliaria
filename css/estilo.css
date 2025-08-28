@@ -12,7 +12,7 @@
 
 .cont-banner img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -56,6 +56,16 @@
 }
 
 @media (max-width: 800px) {
+
+    .text-banner {
+        grid-column: 2/4;
+        grid-row: 2/5;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        z-index: 9999;
+    }
+
     .banner-btn {
         grid-column: 2/4;
         grid-row: 4/5;
@@ -64,7 +74,14 @@
         margin-top: 10px;
         z-index: 9999;
     }
-   
+
+    .text-banner h2 {
+        font-size: 40px;
+    }
+
+    .text-banner p {
+        font-size: 20px;
+    }
 
 
 }
@@ -83,6 +100,7 @@
     background-color: white;
     margin-bottom: 50px;
     z-index: 9999;
+
 }
 
 .menu ul {
@@ -132,6 +150,11 @@
     color: white;
 }
 
+@media (max-width: 800px) {
+    .menu a {
+        padding: 10px 10px;
+    }
+}
 
 /* about */
 
@@ -148,14 +171,14 @@
 
 /* barra */
 
-.contenedor-barra{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  margin-top: 50px;
+.contenedor-barra {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
 }
 
-.contenedor-barra img{
+.contenedor-barra img {
     width: 100%;
     height: 200px;
     grid-column: 1/4;
@@ -165,7 +188,7 @@
     z-index: -10;
 }
 
-.contenedor-barra .title-barra{
+.contenedor-barra .title-barra {
     grid-column: 2/4;
     grid-row: 2/5;
     color: white;
@@ -173,7 +196,7 @@
     text-transform: uppercase;
 }
 
-.contenedor-barra p{
+.contenedor-barra p {
     grid-column: 2/3;
     grid-row: 3/4;
     color: white;
@@ -181,14 +204,14 @@
     font-weight: bold;
 }
 
-@media (max-width: 800px){
-    .contenedor-barra .title-barra{
+@media (max-width: 800px) {
+    .contenedor-barra .title-barra {
         grid-column: 1/4;
         font-size: 30px;
         text-align: center;
     }
 
-    .contenedor-barra p{
+    .contenedor-barra p {
         grid-column: 1/4;
         text-align: center;
     }
@@ -196,111 +219,111 @@
 
 /* servicios */
 
-.contenedor-servicios{
+.contenedor-servicios {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-.box-servicios{
+.box-servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px
 }
 
-.box1{
+.box1 {
     grid-column: 1/2;
     width: 100%;
     height: 300px;
-    
+
 }
 
-.box1 img{
+.box1 img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-.box2{
+.box2 {
     grid-column: 2/3;
     width: 100%;
     height: 300px;
 }
 
-.box2 img{
+.box2 img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
 
-.box3{
+.box3 {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
     height: 300px;
 }
 
-.box3 img{
+.box3 img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
 
-.box4{
+.box4 {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 100%;
     height: 300px;
 }
 
-.box4 img{
+.box4 img {
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-.cont-service-title{
+.cont-service-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-@media (max-width: 800px){
-    .contenedor-servicios{
+@media (max-width: 800px) {
+    .contenedor-servicios {
         margin-top: 60px;
     }
 }
 
 /* hover servicios */
 
-.box-serv{
+.box-serv {
     overflow: hidden;
     position: relative;
 }
 
-.img-service{
+.img-service {
     transition: all .6s ease;
     display: block;
 }
 
 
-.img-service:hover{
+.img-service:hover {
     transform: scale(1.5) rotate(15deg);
     z-index: -10;
 }
 
 /* form */
 
-.titulo-form h2{
+.titulo-form h2 {
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
 }
 
 
-.contac-iconos ul{
+.contac-iconos ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -308,40 +331,40 @@
     margin: 0;
 }
 
-.contac-iconos i{
+.contac-iconos i {
     font-size: 30px;
     color: white;
     margin-right: 15px;
 }
 
-.contac-icono span{
+.contac-icono span {
     margin-bottom: 10px;
 }
 
-.contac-iconos ul li{
+.contac-iconos ul li {
     display: flex;
     align-items: center;
 }
 
 /* footer */
 
-.cont-footer{
+.cont-footer {
     background-color: #333;
     height: 200px;
     width: 100%;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     justify-content: center;
 }
 
-.footer-logo h2{
+.footer-logo h2 {
     color: white;
     text-transform: uppercase;
 }
 
-.footer-menu ul{
+.footer-menu ul {
     display: flex;
     gap: 30px;
     list-style: none;
@@ -349,8 +372,8 @@
     margin: 0;
 }
 
-.footer-menu a{
+.footer-menu a {
     text-decoration: none;
     color: white;
-    
+
 }
