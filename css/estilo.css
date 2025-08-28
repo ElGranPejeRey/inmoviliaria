@@ -164,8 +164,19 @@
 
 }
 
+.cont-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .cont-img img {
-    width: 400px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px 10px 200px 10px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
 
 }
 
