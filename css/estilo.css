@@ -316,10 +316,41 @@
 
 .contac-icono span{
     margin-bottom: 10px;
-    color: white;
 }
 
 .contac-iconos ul li{
     display: flex;
     align-items: center;
+}
+
+/* footer */
+
+.cont-footer{
+    background-color: #333;
+    height: 200px;
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    
 }

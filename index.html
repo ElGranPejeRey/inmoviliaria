@@ -18,7 +18,7 @@
 <body>
     <!-- barra superior -->
 
-    <div class="container-fluid bg-primary bg-superior">
+    <div class="container-fluid bg-primary bg-superior" id="index">
         <div class="row cont-barraSup">
             <div class="col contenido-text">
                 <p>direccion: viña del mar - Chile</p>
@@ -39,7 +39,7 @@
             <h2>Inmoviliarias Concepts</h2>
             <p>somos el sueño de tu casa propia</p>
         </div>
-        <button type="button" class="btn btn-primary banner-btn">conocer mas</button>
+        <a href="#about" type="button" class="btn btn-primary banner-btn pt-2">conocer mas</a>
     </div>
 
 
@@ -48,10 +48,10 @@
     <div class="container-fluid contenedor-menu">
         <div class="menu">
             <ul>
-                <li><a href="">INICIO</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">SERVICE</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#index">INICIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </div>
         <div class="social d-none d-md-block">
@@ -65,7 +65,7 @@
 
     <!-- about -->
 
-    <div class="container">
+    <div class="container" id="about">
         <div class="row cont-about">
 
             <div class="col-12 col-md-6 cont-img">
@@ -93,7 +93,7 @@
 
     <!-- servicios -->
 
-    <div class="container contenedor-servicios">
+    <div class="container contenedor-servicios" id="service">
         <div class="row">
             <div class="col-12 col-lg-4 cont-service-title">
                 <h2 class="servicios-title"> Nuestros Servicios</h2>
@@ -132,9 +132,9 @@
 
     <!-- contacto -->
 
-    <div class="container-fluid bg-info my-5">
+    <div class="container-fluid bg-info my-5" id="contacto">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-0 mb-md-5">
                 <div class="titulo-form">
                     <h2 class="text-center text-white my-5">Contáctanos</h2>
                 </div>
@@ -155,8 +155,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
-                <div class="contactanos-text">
+            <div class="col-12 col-md-6 mb-5 mb-md-0">
+                <div class="contactanos-text ms-4">
                     <h2 class="text-center text-white my-5 fw-bold text-uppercase">información</h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil voluptatem
                         praesentium quod,
@@ -178,6 +178,25 @@
     </div>
 
     <!-- footer -->
+
+    <div class="container-fluid cont-footer">
+        <div class="row">
+            <div class="col footer-logo mt-4 mt-md-4">
+                <h2>logo</h2>
+            </div>
+
+            <div class="col footer-menu mt-4">
+                <ul>
+                    <li><a href="#index">Inicio</a></li>
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#service">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <hr class="text-white mt-4">
+            <p class="text-secondary text-center mt-md-4">&copy; 2025 CodeDesignerWeb. Todos los derechos reservados.</p>
+        </div>
+    </div>
 
 
 
