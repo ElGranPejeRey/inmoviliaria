@@ -8,6 +8,18 @@
     color: white;
 }
 
+@media (max-width:800px){
+
+    .contenido-text{
+        margin-top: 6px;
+    }
+
+    .contenido-text p{
+        font-size: 10px;
+    }
+}
+
+
 /* banner */
 
 .cont-banner img {
