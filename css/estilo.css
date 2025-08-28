@@ -164,12 +164,6 @@
 
 /* about */
 
-.cont-about {
-    display: flex;
-    align-items: center;
-
-}
-
 .cont-img{
     display: flex;
     justify-content: center;
@@ -184,6 +178,13 @@
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
     object-fit: cover;
 
+}
+
+.text-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* barra */
