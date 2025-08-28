@@ -162,12 +162,6 @@
     color: white;
 }
 
-@media (max-width: 800px) {
-    .menu a {
-        padding: 10px 10px;
-    }
-}
-
 /* about */
 
 .cont-about {
